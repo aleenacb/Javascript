@@ -1,0 +1,11 @@
+let x, y, sum, mul, divide, sub;
+x = 3;
+y = 4;
+sum = x + y;
+mul = x * y;
+divide = x / y;
+sub = x - y;
+console.log("Sum" + sum);
+console.log("Multiply: " + mul);
+console.log("Divide :" + divide);
+console.log("Subtract :" + sub);

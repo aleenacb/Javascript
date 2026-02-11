@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <h2>Adding innerhtml to the web page</h2>
+    <button onclick="window.print()">Click here to print</button>
+    <script>
+        document.write("Welcome to JS");
+        let userInput = window.prompt("Please enter the prompt");
+        if(userInput !== null) {
+            window.alert("Hello" + userInput + "!");
+        } else {
+            window.alert("You closed the window");
+        }
+    </script>
+</body>
+</html>

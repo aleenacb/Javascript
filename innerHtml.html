@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="color: rgb(245, 112, 134)";>Adding innerHTML to Javascript</h2>...
+    <p id="Hi"></p>
+    <button onclick="window.print()">Click here to Print</button>
+    <script>
+        /*document.getElementById("demo").innerHTML = "Hello! EveryOne";*/
+        document.write("Welcome to Js");
+        /*window.alert("Javascript");*/
+        let userInput = window.prompt("Please enter your input");
+        if (userInput !== null) {
+            window.alert("Hello, " + userInput + "!");
+        } else {
+            window.alert("You Clicked cancel or closed the prompt");
+        }
+
+        document.getElementById("Hi").innerHTML = "Am Aleena";
+    </script>
+</body>
+</html>

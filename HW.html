@@ -1,0 +1,19 @@
+<!--Javascript code inside <body> tag-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+    </head>
+    <body>
+        <h2>Adding JS code inside the body tag</h2>
+        <h3 id="demo" style="color: blueviolet;">Hello everyone!</h3>
+        <button type="submit" onclick="myfunc()">Submit</button>
+        <script>
+            function myfunc() {
+                document.getElementById("demo").innerHTML="Content Changed";
+            }
+        </script>
+    </body>
+    </html>

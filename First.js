@@ -1,0 +1,12 @@
+console.log("Basic Print method in Javasript");
+let c, d, e;
+c = 4;
+d = c;
+e = c/d;
+let str1 = "Aleena";
+let str2 = "Javascript";
+console.log("Name :" + str1);
+console.log("Language:" + str2);
+console.log(c);
+console.log(d);
+console.log(e);

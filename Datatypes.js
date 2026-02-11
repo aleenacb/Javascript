@@ -1,0 +1,17 @@
+let n = 42;
+let pi = 3.14;
+let s = "Hello World";
+let bool = true;
+let notAssigned;
+let empty = null;
+let sym = Symbol('unique');
+let bigNumber  = 323232326589895652133;
+console.log(n);
+console.log(pi);
+console.log(s);
+console.log(bool);
+console.log(notAssigned);
+console.log(empty);
+console.log(sym);
+console.log(bigNumber);
+console.log(0.1+0.2===0.3);

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.counter {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+}
+.clicks {
+    font-size: 1.1em;
+    margin-top: 10px;
+}

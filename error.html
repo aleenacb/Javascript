@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body></body>
+    <script>
+        //Error message
+console.error("This is an error message occured in compiler");
+console.error("This is error message. So u can ignore this message");
+//warning message
+console.warn("This is an warning message");
+console.warn("If u ignore this warning then definetly am gonna kill u");
+//Info message
+console.info('%cThis styled info message!','color:blue; font-size: 16px; font-weight: bold;');
+console.info("It's just an information message");
+//Table
+console.table([{name:"Aleena", age: 21}, {name:"Ashwin", age: 23}, {name: "Alisha", age: 10}]);
+console.table([{name: "Leena", age: 45}, {name: "Benoy", age: 55}, {name: "Jimmy Dogmari", age: 0}]);
+//console.time
+console.time("timer1");
+function loops() {
+    for (let i = 0; i <= 10000; i++) {
+
+    }
+}
+loops()
+console.timeEnd('timer1');
+//assert
+console.assert(6 > 9, "This assertion failed");
+//group and group end
+console.group("User Information");
+console.log("Name : Aleena");
+console.log("Age : 21");
+console.groupEnd();
+//Count
+console.count("Count Label");
+console.count("Count Label");
+console.count("Count Label");
+//trace
+function a() {
+    b()
+}
+function b() {
+    c()
+}
+function c() {
+    console.trace()
+}
+a()
+    </script>
+</html>
