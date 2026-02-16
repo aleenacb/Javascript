@@ -1,8 +1,7 @@
-function add(a) {
-    return function(b){
-        return a + b;
+function mul(x) {
+    return function(y) {
+        return x * y;
     };
 }
-const addTwo = add(2);
-console.log(addTwo(3));
-console.log(addTwo(4));
+var mulFunc = mul(2);
+console.log(mulFunc(5));
