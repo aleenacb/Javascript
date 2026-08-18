@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>* Selectors</title>
+    <style>
+        /*Universal selector*/
+        * {
+            background-color: hsl(325, 63%, 82%);
+            text-align: center;
+        }
+        /*type selector*/
+        span {
+            background-color: skyblue;
+        }
+        /*ID selector*/
+        #div1 {
+            color: green;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        /* Class selector*/
+        .div2 {
+            color: orange;
+            text-align: left;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        /*attribute selector*/
+        div[style] {
+            text-align: center;
+            color: purple;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: -20px;
+        }
+        /* Class selector*/
+        .box{
+            background-color: yellow;
+            width: 300px;
+            height: 100px;
+            margin: auto;
+            font-size: 30px;
+            text-align: center;
+        }
+        /*Pseudo selector*/
+        .box:hover {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <p>Universal selector</p>
+    <br>
+    <span>This span is styles using type selector</span>
+    <br>
+    <div id="div1">This div is styles using id selector</div>
+    <br>
+    <div class="div2">
+        This div is styled using class selector
+    </div>
+    <br>
+    <div style="color: gray;"> This div is styled using attribute selector</div>
+    <br>
+    <div style="text-align: center;">This div is styled using combinators
+    <br>
+    <p>Child selector</p>
+</div>
+    <br>
+    <p>Pseudo selector:</p>
+    <div class="box">My color changes if you hover me</div>
+</body>
+</html>
